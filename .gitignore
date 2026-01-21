@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.DS_Store
+*.pyc
+results/random_check/
+results/to_check/
+results/evaluation/
+results/evaluation_refined/
+
+# Foldere de date (mii de imagini)
+data/
+processed/
+raw/
+
+# Extensii de imagini (pentru a fi sigur)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# EXCEPȚIE: Vrem să păstrăm imaginile din documentație
+!docs/**/*.png
+!docs/**/*.jpg
+
+checkpoints/

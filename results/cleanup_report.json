@@ -1,0 +1,10 @@
+{
+    "total_before": 1085,
+    "total_after": 1083,
+    "deleted": 159,
+    "kept_corrupted": 157,
+    "kept_big_masks": 1083,
+    "kept_empty_random": 0,
+    "deleted_small_changes": 2,
+    "deleted_empty_extra": 0
+}

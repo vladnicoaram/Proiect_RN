@@ -1,0 +1,7 @@
+Experiment,Description,Loss_Function,LR,Batch_Size,Dropout,Threshold,Min_Component,Accuracy,Precision,Recall,F1,IoU,Train_Time_min,Notes
+Baseline (Etapa 5),Initial model with BCE loss,BCEWithLogitsLoss,1e-4,16,0.0,0.5,0,0.3636,0.3636,0.9438,0.5278,0.3636,15,"High recall (94%), low precision - many false positives. Model too generous."
+Exp1_FocalLoss,Focal Loss for hard examples,FocalLoss(0.6)+DiceLoss(0.4),1e-4,16,0.0,0.5,0,0.6364,0.5824,0.7931,0.6739,0.5106,34,"Better balance. Focus on hard negatives. Early stopping epoch 19."
+Exp2_HighThreshold,Increase threshold to 0.75,FocalLoss(0.6)+DiceLoss(0.4),1e-4,16,0.0,0.75,200,0.6364,0.0,0.0,0.0,0.0,0,"Too restrictive - all predictions filtered. Precision 0 because no TP. FAILED"
+Exp3_AdaptiveThreshold,Optimal threshold + morphological filter,FocalLoss(0.6)+DiceLoss(0.4),1e-4,16,0.0,0.55,200,0.8577,0.7648,0.6272,0.6671,0.4946,34,"✓ BEST - Balance precision/recall. Morphological filter 200px removes noise. Final model selected."
+Exp4_LargerBatch,Batch size 16 → 64,FocalLoss(0.6)+DiceLoss(0.4),1e-4,64,0.0,0.55,200,0.8234,0.7401,0.6089,0.6628,0.4789,28,"Slightly lower metrics. Faster training but less stable gradient updates."
+Exp5_HigherLR,Learning rate 1e-4 → 5e-4,FocalLoss(0.6)+DiceLoss(0.4),5e-4,16,0.0,0.55,200,0.8156,0.7289,0.6145,0.6637,0.4721,24,"Convergence faster but final accuracy lower. Risk of missing optimal point."

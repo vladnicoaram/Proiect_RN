@@ -1,0 +1,57 @@
+[
+  {
+    "rank": 1,
+    "sample_index": 204,
+    "error_type": "False Negative - Model missed change",
+    "probable_cause": "Obiect mare: posibil contrast sc\u0103zut sau iluminare neuniform\u0103",
+    "tp_pixels": 12664,
+    "fp_pixels": 3094,
+    "fn_pixels": 36090,
+    "gt_pixels": 48754,
+    "pred_pixels": 15758
+  },
+  {
+    "rank": 2,
+    "sample_index": 152,
+    "error_type": "False Negative - Model missed change",
+    "probable_cause": "Obiect mare: posibil contrast sc\u0103zut sau iluminare neuniform\u0103",
+    "tp_pixels": 12246,
+    "fp_pixels": 2560,
+    "fn_pixels": 34901,
+    "gt_pixels": 47147,
+    "pred_pixels": 14806
+  },
+  {
+    "rank": 3,
+    "sample_index": 13,
+    "error_type": "False Negative - Model missed change",
+    "probable_cause": "Obiect mare: posibil contrast sc\u0103zut sau iluminare neuniform\u0103",
+    "tp_pixels": 17009,
+    "fp_pixels": 12048,
+    "fn_pixels": 23409,
+    "gt_pixels": 40418,
+    "pred_pixels": 29057
+  },
+  {
+    "rank": 4,
+    "sample_index": 9,
+    "error_type": "False Positive - Model detected noise",
+    "probable_cause": "Zgomot senzor sau artefact compresie fi\u0219ier",
+    "tp_pixels": 19677,
+    "fp_pixels": 34592,
+    "fn_pixels": 520,
+    "gt_pixels": 20197,
+    "pred_pixels": 54269
+  },
+  {
+    "rank": 5,
+    "sample_index": 95,
+    "error_type": "False Positive - Model detected noise",
+    "probable_cause": "Zgomot senzor sau artefact compresie fi\u0219ier",
+    "tp_pixels": 17156,
+    "fp_pixels": 26455,
+    "fn_pixels": 7855,
+    "gt_pixels": 25011,
+    "pred_pixels": 43611
+  }
+]

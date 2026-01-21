@@ -1,0 +1,13 @@
+{
+  "test_accuracy": 0.8577,
+  "test_precision": 0.7648,
+  "test_recall": 0.6272,
+  "test_iou": 0.4946,
+  "test_f1": 0.6671,
+  "evaluation_date": "2026-01-21",
+  "model": "unet_refined_small_objects",
+  "dataset": "267 test images",
+  "threshold": 0.55,
+  "min_component_size": 200,
+  "notes": "Focal Loss (60%) + Dice Loss (40%) with morphological filtering for small objects"
+}

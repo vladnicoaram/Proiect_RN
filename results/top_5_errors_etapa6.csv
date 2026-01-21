@@ -1,0 +1,6 @@
+rank,sample_index,error_type,probable_cause,tp_pixels,fp_pixels,fn_pixels,gt_pixels,pred_pixels
+1,204,False Negative - Model missed change,Obiect mare: posibil contrast scăzut sau iluminare neuniformă,12664,3094,36090,48754,15758
+2,152,False Negative - Model missed change,Obiect mare: posibil contrast scăzut sau iluminare neuniformă,12246,2560,34901,47147,14806
+3,13,False Negative - Model missed change,Obiect mare: posibil contrast scăzut sau iluminare neuniformă,17009,12048,23409,40418,29057
+4,9,False Positive - Model detected noise,Zgomot senzor sau artefact compresie fișier,19677,34592,520,20197,54269
+5,95,False Positive - Model detected noise,Zgomot senzor sau artefact compresie fișier,17156,26455,7855,25011,43611

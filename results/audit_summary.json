@@ -1,0 +1,11 @@
+{
+    "total_images": 1242,
+    "corrupted_count": 157,
+    "problematic_count": 1135,
+    "top_20_copied": 20,
+    "statistics": {
+        "avg_loss": 0.6136,
+        "avg_iou": 0.2825,
+        "avg_mask_pixels": 18512
+    }
+}

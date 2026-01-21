@@ -1,0 +1,452 @@
+[
+    {
+        "index": 908,
+        "filename": "3FO4IO7I0OQ1_834484_empty_1.jpg",
+        "loss": 0.6976,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6976) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6976
+    },
+    {
+        "index": 1071,
+        "filename": "3FO4IPBQ2V8L_2068_empty_1.jpg",
+        "loss": 0.6968,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6968) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6968
+    },
+    {
+        "index": 1216,
+        "filename": "3FO4IQERI6PG_733793_empty_1.jpg",
+        "loss": 0.6966,
+        "iou": 0.0002,
+        "mask_white_pixels": 15,
+        "motive": "Loss mare (0.6966) | IoU sc\u0103zut (0.0002) | Masca prea mica (15 px)",
+        "score_error": 1.6964
+    },
+    {
+        "index": 729,
+        "filename": "3FO4IN6TEJP8_293685_empty_1.jpg",
+        "loss": 0.6963,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6963) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6963
+    },
+    {
+        "index": 1022,
+        "filename": "3FO4IOVX9S0H_912230_empty_1.jpg",
+        "loss": 0.696,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6960) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.696
+    },
+    {
+        "index": 324,
+        "filename": "3FO4IJ2Q7S6G_834235_empty_1.jpg",
+        "loss": 0.6959,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6959) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6959
+    },
+    {
+        "index": 948,
+        "filename": "3FO4IOD1GPX2_834235_empty_1.jpg",
+        "loss": 0.6959,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6959) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6959
+    },
+    {
+        "index": 1072,
+        "filename": "3FO4IPBQ2V8L_654_empty_1.jpg",
+        "loss": 0.6959,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6959) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6959
+    },
+    {
+        "index": 771,
+        "filename": "3FO4INI7H9E4_95361_empty_1.jpg",
+        "loss": 0.6958,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6958) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6958
+    },
+    {
+        "index": 931,
+        "filename": "3FO4IOBDHHY6_834325_empty_1.jpg",
+        "loss": 0.6958,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6958) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6958
+    },
+    {
+        "index": 949,
+        "filename": "3FO4IOD1GPX2_834325_empty_1.jpg",
+        "loss": 0.6958,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6958) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6958
+    },
+    {
+        "index": 326,
+        "filename": "3FO4IJ2Q7S6G_834539_empty_1.jpg",
+        "loss": 0.6957,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6957) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6957
+    },
+    {
+        "index": 502,
+        "filename": "3FO4ILD5BSQA_3945_empty_1.jpg",
+        "loss": 0.6957,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6957) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6957
+    },
+    {
+        "index": 228,
+        "filename": "3FO4IIO854DI_1945_empty_1.jpg",
+        "loss": 0.6956,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6956) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6956
+    },
+    {
+        "index": 229,
+        "filename": "3FO4IIO854DI_2410_empty_1.jpg",
+        "loss": 0.6956,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6956) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6956
+    },
+    {
+        "index": 321,
+        "filename": "3FO4IJ2EYRAW_1181_empty_1.jpg",
+        "loss": 0.6956,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6956) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6956
+    },
+    {
+        "index": 349,
+        "filename": "3FO4IJ5LIJTF_2751_empty_1.jpg",
+        "loss": 0.6956,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6956) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6956
+    },
+    {
+        "index": 406,
+        "filename": "3FO4IJQ4QHBH_749_empty_1.jpg",
+        "loss": 0.6956,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6956) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6956
+    },
+    {
+        "index": 930,
+        "filename": "3FO4IOBDHHY6_834235_empty_1.jpg",
+        "loss": 0.6956,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6956) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6956
+    },
+    {
+        "index": 934,
+        "filename": "3FO4IOBDHHY6_834616_empty_1.jpg",
+        "loss": 0.6956,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6956) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6956
+    },
+    {
+        "index": 951,
+        "filename": "3FO4IOD1GPX2_834539_empty_1.jpg",
+        "loss": 0.6956,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6956) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6956
+    },
+    {
+        "index": 997,
+        "filename": "3FO4IOKKRM7Q_943_empty_1.jpg",
+        "loss": 0.6956,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6956) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6956
+    },
+    {
+        "index": 146,
+        "filename": "3FO4IH2H82VV_246_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 322,
+        "filename": "3FO4IJ2EYRAW_2287_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 325,
+        "filename": "3FO4IJ2Q7S6G_834484_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 380,
+        "filename": "3FO4IJKIM4CJ_67755_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 452,
+        "filename": "3FO4IKJPYSKY_904122_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 453,
+        "filename": "3FO4IKJPYSKY_904614_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 625,
+        "filename": "3FO4IMSLO1RL_1488316367_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 682,
+        "filename": "3FO4IN1U0PPQ_426431_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 816,
+        "filename": "3FO4INSX5PUG_452_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 817,
+        "filename": "3FO4INSX5PUG_688_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 933,
+        "filename": "3FO4IOBDHHY6_834539_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 1094,
+        "filename": "3FO4IPFSU244_249937_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 1130,
+        "filename": "3FO4IPOYJAAY_443_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 1166,
+        "filename": "3FO4IQ8MJJ2C_1470_empty_1.jpg",
+        "loss": 0.6955,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6955) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6955
+    },
+    {
+        "index": 57,
+        "filename": "3FO4IELTTJPN_354_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 267,
+        "filename": "3FO4IIUQTO3G_239_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 445,
+        "filename": "3FO4IKHO5QH3_14966_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 623,
+        "filename": "3FO4IMSLO1RL_1488315869_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 683,
+        "filename": "3FO4IN1U0PPQ_426504_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 684,
+        "filename": "3FO4IN1U0PPQ_426574_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 767,
+        "filename": "3FO4INI7H9E4_95357_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 815,
+        "filename": "3FO4INSX5PUG_143_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 919,
+        "filename": "3FO4IO9FDQM9_270_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 932,
+        "filename": "3FO4IOBDHHY6_834484_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 1076,
+        "filename": "3FO4IPCMMMH0_76943_empty_1.jpg",
+        "loss": 0.6954,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6954) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6954
+    },
+    {
+        "index": 99,
+        "filename": "3FO4IFYHDQSR_343_empty_1.jpg",
+        "loss": 0.6953,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6953) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6953
+    },
+    {
+        "index": 230,
+        "filename": "3FO4IIO854DI_2578_empty_1.jpg",
+        "loss": 0.6953,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6953) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6953
+    },
+    {
+        "index": 237,
+        "filename": "3FO4IIQ288TD_3603_empty_1.jpg",
+        "loss": 0.6953,
+        "iou": 0.0,
+        "mask_white_pixels": 0,
+        "motive": "Loss mare (0.6953) | IoU sc\u0103zut (0.0000) | Masca prea mica (0 px)",
+        "score_error": 1.6953
+    }
+]

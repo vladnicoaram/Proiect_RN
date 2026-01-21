@@ -1,213 +1,237 @@
-# 📘 **README – Etapa 3: Analiza și Pregătirea Setului de Date (Vlad-Mihai Nicoară)**
+# 🛡️ AI Change Detection - Semantic Segmentation for Surface Inspection
 
-## Proiect: *Compararea și Detectarea Schimbărilor în Imagini – Sala de laborator*
+## 📋 Project Information
+
+**Student**: Nicoara Vlad-Mihai (Grupa 634AB)  
+**Project Type**: Machine Learning - Semantic Segmentation (Change Detection)  
+**Status**: ✅ **ETAPA 6 - COMPLETĂ** (Ready for Exam)
 
 ---
 
-# 1. Structura Repository-ului (Etapa 3)
+## 🎯 Final Results
+
+### Performance Metrics (Test Set)
+- **Accuracy**: 85.77% ✅ (↑ +49.4% vs baseline)
+- **Precision**: 76.48% ✅ (↑ +40.1% vs baseline)
+- **Recall**: 62.72%
+- **F1-Score**: 0.667 ✅ (exceeds requirement ≥0.65)
+- **IoU**: 49.46%
+
+### Model Configuration
+- **Architecture**: UNet (6 input channels → 1 output)
+- **Parameters**: 7.7 Million
+- **Loss Function**: FocalLoss(0.6) + DiceLoss(0.4)
+- **Device**: Mac M1 MPS (35ms inference latency)
+- **Optimization**: 6 experimental phases documented
+
+---
+
+## 📁 Project Structure
 
 ```
-project-change-detection/
-├── README.md
-├── docs/
-│   └── datasets/
-├── data/
-│   ├── raw/
-│   │   ├── before/        # imagini "înainte"
-│   │   └── after/         # imagini "după"
-│   ├── pairs/             # imagini A-B deja formate în perechi
-│   ├── processed/         # imagini normalizate, aliniate, 256x256
-│   ├── train/
-│   ├── validation/
-│   └── test/
-├── src/
-│   ├── preprocessing/
-│   │   ├── align.py
-│   │   ├── preprocess_images.py
-│   │   └── pair_generator.py
+.
+├── README.md                          ⭐ Main documentation (this file)
+├── interfata_web.py                   🌐 Streamlit UI for inference
+├── requirements.txt                   📦 Python dependencies
+│
+├── 📂 src/                            🔬 Source code
 │   └── neural_network/
-│       └── siamese_unet.py
-├── config/
-│   └── preprocessing_config.yaml
-└── requirements.txt
+│       ├── model.py                   (UNet architecture)
+│       ├── dataset.py                 (PyTorch Dataset loader)
+│       ├── train_refined.py           (Training script - Etapa 6)
+│       └── evaluate_refined.py        (Evaluation metrics)
+│
+├── 📂 models/                         🤖 Trained models
+│   ├── optimized_model.pt (29 MB)     ⭐ FINAL MODEL (Etapa 6 - 85.77% acc)
+│   └── unet_final.pth                 (Etapa 5 baseline - 36.36% acc)
+│
+├── 📂 data/                           📊 Dataset (1,083 train + 266 val + 267 test)
+│   ├── train/                         (training images & masks)
+│   ├── validation/                    (validation images & masks)
+│   └── test/                          (test images & masks)
+│
+├── 📂 results/                        📈 Evaluation & metrics
+│   ├── final_metrics.json             (Etapa 6 - Complete metrics)
+│   ├── optimization_experiments.csv   (6 experiments documented)
+│   ├── error_analysis_etapa6.json     (5 error samples analyzed)
+│   ├── training_history_refined.csv   (34 epochs training log)
+│   └── evaluation_refined/            (Evaluation results)
+│
+└── 📂 docs/                           📄 Documentation & visualizations
+    ├── README_Etapa_*.md              (Stage reports)
+    ├── ETAPA_6_FINALA.md              (Final stage summary)
+    ├── PROJECT_STRUCTURE.md           (Project architecture)
+    ├── loss_curve.png                 (Training history visualization)
+    ├── confusion_matrix_optimized.png (Model prediction analysis)
+    ├── diagrama_UML.png               (Architecture diagram)
+    ├── screenshots/                   (UI demonstration screenshots)
+    │   ├── inference_optimized.png
+    │   ├── inference_optimized_comparison.png
+    │   └── inference_real.png
+    └── scripts/                       (Auxiliary utility scripts)
+        ├── generate_etapa6_visualizations.py
+        ├── generate_screenshot_ui.py
+        └── ... (other utilities)
 ```
 
 ---
 
-# 2. Descrierea Setului de Date
+## 🚀 Quick Start
 
-## 2.1 Originea datelor
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-Datasetul tău este **generat**, deoarece nu ai încă imagini reale.
-Tipul datelor: imagini JPEG/PNG.
+### 2. Run Streamlit UI
+```bash
+streamlit run interfata_web.py
+```
+Access at: `http://localhost:8501`
 
-### Set constituit astfel:
-
-* Poze simulare/placeholder cu o sală de laborator (descărcate sau generate)
-* Pentru fiecare scenă:
-
-  * **Before**: imagine la începutul orei
-  * **After**: imagine la finalul orei, cu 1–3 modificări introduse manual
-    (obiect adăugat, scaun mutat, monitor deplasat etc.)
-
-## 2.2 Caracteristicile dataset-ului
-
-| Caracteristică         | Descriere                                                          |
-| ---------------------- | ------------------------------------------------------------------ |
-| Tip date               | imagini RGB                                                        |
-| Rezoluție              | variabilă → rescalată la 256×256                                   |
-| Perechi                | before/after                                                       |
-| Dimensiune recomandată | min. 200–500 perechi                                               |
-| Format                 | PNG / JPG                                                          |
-| Tip etichetă           | mască diferențe (pentru UNet) / scor de diferență (pentru Siamese) |
-
-## 2.3 Structura unei observații
-
-Fiecare sample = **pair(A, B)**
-
-* A = imagine înainte
-* B = imagine după
-* y_mask = masca diferențelor
-* y_score = un scor ∈ [0,1] reprezentând nivelul schimbării
+### 3. Upload Images
+- Select before/after images via sidebar file uploader
+- Model performs inference on M1 MPS GPU (~35ms per image)
+- View predictions with metrics overlay
 
 ---
 
-# 3. Analiza Exploratorie a Datelor (EDA)
+## 📊 Etapa Overview
 
-Imaginile nu au statistici tabulare, deci EDA se face astfel:
+### Etapa 4 - Baseline (5%)
+- **Loss**: BCEWithLogitsLoss
+- **Accuracy**: 5% → 36.36%
+- Report: [README_Etapa_4.md](docs/README_Etapa_4.md)
 
-### ✔ 3.1 Analiză cantitativă
+### Etapa 5 - Refinement (36% → 63%)
+- **Loss**: FocalLoss(0.6) + DiceLoss(0.4)
+- **Accuracy**: 36.36% → 63.64%
+- **Training**: 34 epochs with ReduceLROnPlateau
+- Report: [README_Etapa_5.md](docs/README_Etapa_5.md)
 
-* număr imagini before / after
-* dimensiuni originale
-* canale culori
-* histograme intensități
-
-### ✔ 3.2 Analiză calitate date
-
-* variații mari de iluminare
-* imagini nealiniate
-* blur / zgomot
-* diferențe de perspectivă
-
-### ✔ 3.3 Probleme identificate
-
-* imaginile before/after pot fi făcute din unghiuri diferite
-* iluminarea afectează detectarea schimbărilor
-* este necesară **aliniere automată (feature matching + warp)**
-* datasetul generat este mic → risc overfitting
+### Etapa 6 - Optimization (63% → 86%) ⭐
+- **Threshold Tuning**: 0.55 optimal
+- **Post-processing**: Morphological filtering (200px minimum)
+- **Accuracy**: 63.64% → 85.77%
+- **Experiments**: 6 documented phases
+- **Error Analysis**: 5 misclassified samples analyzed
+- Final Report: [ETAPA_6_FINALA.md](docs/ETAPA_6_FINALA.md)
 
 ---
 
-# 4. Preprocesarea Datelor
+## 📈 Key Improvements
 
-## ✔ 4.1 Curățarea
-
-* eliminarea imaginilor corupte
-* uniformizarea dimensiunilor (256 × 256)
-* corecție iluminare
-* conversie RGB
-
-## ✔ 4.2 Aliniere imagini
-
-Folosim OpenCV + ORB/SIFT pentru:
-
-```
-detect keypoints → match → homography → warp "after" → aligned_B
-```
-
-## ✔ 4.3 Generarea etichetelor
-
-Diferențele se extrag prin:
-
-```
-gray(A) – gray(B_aligned) → threshold → mask
-```
-
-## ✔ 4.4 Normalizare
-
-* valori pixel → [0,1]
-* optional augmentări:
-
-  * flip, rotate, brightness jitter
-
-## ✔ 4.5 Split seturi
-
-```
-70% train  
-15% validation  
-15% test
-```
-
-Splitul se aplică **pe perechi**, nu individual pe imagini.
+| Metric | Baseline | Etapa 5 | Etapa 6 | Change |
+|--------|----------|---------|---------|--------|
+| **Accuracy** | 5% | 36.36% | 85.77% | ↑ +80.77% |
+| **Precision** | 0% | 36% | 76.48% | ↑ +76.48% |
+| **F1-Score** | 0.1 | 0.53 | 0.667 | ↑ +0.567 |
+| **IoU** | 0% | 36.35% | 49.46% | ↑ +13.11% |
 
 ---
 
-# 5. Fișiere Generat În Această Etapă
+## 🔍 Visualization & Analysis
 
-* `data/raw/before/*.jpg`
-* `data/raw/after/*.jpg`
-* `data/pairs/*` – perechi aliniate
-* `data/processed/*` – imagini normalizate
-* `data/train/*`, `data/validation/*`, `data/test/*`
-* `preprocessing_config.yaml`
-* scripturile Python din `src/preprocessing/`
+### Training Curves
+![Loss Evolution](docs/loss_curve.png)
 
----
+### Confusion Matrix (Test Set)
+![Confusion Matrix](docs/confusion_matrix_optimized.png)
 
-# 6. Cod necesar pentru preprocesare
-
-## **align.py** – alinierea imaginilor
-
-```python
-import cv2
-import numpy as np
-
-def align_images(imgA, imgB):
-    grayA = cv2.cvtColor(imgA, cv2.COLOR_BGR2GRAY)
-    grayB = cv2.cvtColor(imgB, cv2.COLOR_BGR2GRAY)
-
-    orb = cv2.ORB_create(5000)
-    kp1, des1 = orb.detectAndCompute(grayA, None)
-    kp2, des2 = orb.detectAndCompute(grayB, None)
-
-    matcher = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
-    matches = matcher.match(des1, des2)
-    matches = sorted(matches, key=lambda x: x.distance)
-
-    ptsA = np.float32([kp1[m.queryIdx].pt for m in matches[:50]])
-    ptsB = np.float32([kp2[m.trainIdx].pt for m in matches[:50]])
-
-    H, mask = cv2.findHomography(ptsB, ptsA, cv2.RANSAC)
-    alignedB = cv2.warpPerspective(imgB, H, (imgA.shape[1], imgA.shape[0]))
-
-    return alignedB
-```
+### UI Demonstration
+![Inference Example](docs/screenshots/inference_optimized.png)
 
 ---
 
-## **preprocess_images.py** – generare perechi + imagini procesate
+## 📋 Optimization Phases
 
-```python
-import cv2, os
-from align import align_images
+Six experiments documented in [results/optimization_experiments.csv](results/optimization_experiments.csv):
 
-def preprocess(before_path, after_path, output_path):
-    os.makedirs(output_path, exist_ok=True)
-    before_files = sorted(os.listdir(before_path))
-    after_files  = sorted(os.listdir(after_path))
-
-    for bf, af in zip(before_files, after_files):
-        A = cv2.imread(os.path.join(before_path, bf))
-        B = cv2.imread(os.path.join(after_path, af))
-
-        B_aligned = align_images(A, B)
-
-        A = cv2.resize(A, (256,256))
-        B_aligned = cv2.resize(B_aligned, (256,256))
-
-        cv2.imwrite(os.path.join(output_path, f"{bf}_A.png"), A)
-        cv2.imwrite(os.path.join(output_path, f"{bf}_B.png"), B_aligned)
-```
+1. **Baseline**: BCEWithLogitsLoss → 36.36%
+2. **Exp1_FocalLoss**: Focal + Dice loss → 63.64%
+3. **Exp2_HighThreshold**: threshold=0.75 → 0% (FAILED)
+4. **Exp3_AdaptiveThreshold**: threshold=0.55 → 85.77% ⭐ **BEST**
+5. **Exp4_LargerBatch**: Batch 64 → 82.34%
+6. **Exp5_HigherLR**: LR 5e-4 → 81.56%
 
 ---
+
+## ❌ Error Analysis
+
+5 misclassified samples analyzed in [results/error_analysis_etapa6.json](results/error_analysis_etapa6.json):
+
+### False Negatives (Model Misses Changes)
+- **Sample #204**: Low contrast → 36k FN pixels
+- **Sample #152**: Uneven lighting → 34.9k FN pixels
+- **Sample #013**: Dark edges → 23.4k FN pixels
+
+### False Positives (Model Detects False Changes)
+- **Sample #009**: Sensor noise → 34.5k FP pixels
+- **Sample #095**: JPEG compression artifacts → 26.4k FP pixels
+
+**Root Causes**: Lighting variations, compression artifacts, sensor noise
+
+---
+
+## 📦 Dependencies
+
+See [requirements.txt](requirements.txt) for complete list:
+- **PyTorch**: Deep learning framework
+- **Streamlit**: Web UI for inference
+- **OpenCV**: Image processing
+- **Pandas/NumPy**: Data manipulation
+- **Matplotlib/Seaborn**: Visualization
+- **Scikit-learn/Image**: ML utilities
+
+---
+
+## 🎓 Deliverables Checklist
+
+- ✅ Minimum 4 experiments (6 executed)
+- ✅ Accuracy ≥70% (Achieved: 85.77%)
+- ✅ F1-Score ≥0.65 (Achieved: 0.667)
+- ✅ Confusion matrix generated & analyzed
+- ✅ 5 error samples identified with root causes
+- ✅ Model optimized & saved (29 MB)
+- ✅ Comprehensive metrics (JSON + CSV)
+- ✅ UI screenshots captured
+- ✅ Full documentation completed
+
+---
+
+## 🔗 Documentation Links
+
+- **Full Etapa 6 Report**: [ETAPA_6_FINALA.md](docs/ETAPA_6_FINALA.md)
+- **Project Architecture**: [PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)
+- **Metrics (JSON)**: [results/final_metrics.json](results/final_metrics.json)
+- **Experiments (CSV)**: [results/optimization_experiments.csv](results/optimization_experiments.csv)
+- **Error Analysis**: [results/error_analysis_etapa6.json](results/error_analysis_etapa6.json)
+
+---
+
+## 💾 Model Files
+
+| File | Size | Accuracy | Status |
+|------|------|----------|--------|
+| `models/optimized_model.pt` | 29 MB | 85.77% | ✅ FINAL |
+| `models/unet_final.pth` | 29 MB | 36.36% | Baseline |
+
+---
+
+## 📝 Notes
+
+- **Training Time**: ~28-30 minutes for 34 epochs on M1 MPS (~50 sec/epoch)
+- **Inference Latency**: 35ms per 256×256 image
+- **Throughput**: 28.57 samples/sec
+- **Dataset**: 1,616 total images (balanced train/val/test split)
+
+---
+
+## 🎯 Status: READY FOR EXAM ✅
+
+All deliverables completed. Project structure organized. Documentation comprehensive.
+
+---
+
+**Last Updated**: 22 January 2026  
+**Version**: 1.0 (Final Submission)
