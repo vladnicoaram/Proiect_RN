@@ -1,37 +1,32 @@
 {
-  "model_name": "optimized_model.pt",
-  "optimization_phase": "Final (Etapa 6)",
-  "test_metrics": {
-    "accuracy": 0.8577,
-    "precision": 0.7648,
-    "recall": 0.6272,
-    "f1_score": 0.6671,
-    "iou": 0.4946,
-    "false_positive_rate": 0.1891,
-    "false_negative_rate": 0.3728
+  "timestamp": "2026-02-03T21:19:06.484874",
+  "phase": "Final Threshold Optimization (Recall >= 66% constraint)",
+  "model_file": "optimized_model_v2.pt",
+  "device": "mps",
+  "optimization_method": "Grid search (0.1-0.5, step 0.02) with constraint-based selection",
+  "constraint": "Recall >= 0.66",
+  "selected_threshold": 0.22000000000000003,
+  "selection_reason": "Largest threshold satisfying Recall >= 0.66",
+  "metrics_at_selected_threshold": {
+    "threshold": 0.22000000000000003,
+    "accuracy": 0.8291922048313108,
+    "precision": 0.32485302808927924,
+    "recall": 0.6696870478915864,
+    "f1_score": 0.43748794420621306,
+    "iou": 0.2799904843226499
   },
-  "configuration": {
-    "loss_function": "FocalLoss(0.6) + DiceLoss(0.4)",
-    "learning_rate": 0.0001,
-    "learning_rate_scheduler": "ReduceLROnPlateau(factor=0.5, patience=5)",
-    "batch_size": 16,
-    "epochs_trained": 34,
-    "best_epoch": 19,
-    "best_validation_loss": 0.2532,
-    "threshold": 0.55,
-    "morphological_filter_min_pixels": 200
-  },
-  "dataset": {
-    "train_samples": 1083,
-    "validation_samples": 266,
-    "test_samples": 267,
-    "total_dataset": 1616
-  },
-  "improvements_vs_baseline": {
-    "accuracy_improvement": "+49.41%",
-    "precision_improvement": "+40.12%",
-    "recall_change": "-31.66%",
-    "iou_improvement": "+13.11%"
-  },
-  "evaluation_date": "2026-01-21"
+  "compliance": {
+    "accuracy_target": 0.7,
+    "accuracy_achieved": 0.8291922048313108,
+    "accuracy_pass": true,
+    "precision_target": 0.3,
+    "precision_achieved": 0.32485302808927924,
+    "precision_pass": true,
+    "recall_target": 0.66,
+    "recall_achieved": 0.6696870478915864,
+    "recall_pass": true,
+    "f1_target": 0.6,
+    "f1_achieved": 0.43748794420621306,
+    "f1_pass": false
+  }
 }

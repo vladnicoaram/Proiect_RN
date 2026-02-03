@@ -1,0 +1,140 @@
+RAPORT IMAGINI CORUPTE (METODA AVANSATĂ) - 744 DETECTATE
+==========================================================================================
+
+IMAGINI PENTRU ȘTERGERE SIMETRICĂ:
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMQ587LN_22734_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMQ587LN_22734_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IMQ587LN_22734_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IMQ587LN_22734_empty_1.jpg
+SSIM: 0.2391 | HistCorr: -0.2880 | Combined: -0.0245 | Z-Score: -2.33
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IOF7021L_587226_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IOF7021L_587226_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IOF7021L_587226_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IOF7021L_587226_empty_1.jpg
+SSIM: 0.0027 | HistCorr: -0.0332 | Combined: -0.0152 | Z-Score: -2.29
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IO9QOJGM_1004279_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IO9QOJGM_1004279_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IO9QOJGM_1004279_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IO9QOJGM_1004279_empty_1.jpg
+SSIM: 0.0654 | HistCorr: -0.0832 | Combined: -0.0089 | Z-Score: -2.27
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IL73T46C_159_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IL73T46C_159_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IL73T46C_159_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IL73T46C_159_empty_1.jpg
+SSIM: 0.0713 | HistCorr: -0.0794 | Combined: -0.0040 | Z-Score: -2.25
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IQH8UNUE_179708_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IQH8UNUE_179708_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/test/masks/3FO4IQH8UNUE_179708_empty_1.jpg
+SSIM: 0.0543 | HistCorr: -0.0498 | Combined: 0.0022 | Z-Score: -2.22
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IJN7DYK2_9954_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IJN7DYK2_9954_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IJN7DYK2_9954_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IJN7DYK2_9954_empty_1.jpg
+SSIM: 0.2385 | HistCorr: -0.2330 | Combined: 0.0028 | Z-Score: -2.22
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/validation/before/3FO4IIXI4ITA_990133_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/validation/after/3FO4IIXI4ITA_990133_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/validation/masks/3FO4IIXI4ITA_990133_empty_1.jpg
+SSIM: 0.5153 | HistCorr: -0.5069 | Combined: 0.0042 | Z-Score: -2.21
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/validation/before/3FO4IP5GCC6K_161_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/validation/after/3FO4IP5GCC6K_161_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/validation/masks/3FO4IP5GCC6K_161_empty_1.jpg
+SSIM: 0.0558 | HistCorr: -0.0463 | Combined: 0.0048 | Z-Score: -2.21
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IJ3PWHYQ_444_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IJ3PWHYQ_444_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IJ3PWHYQ_444_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IJ3PWHYQ_444_empty_1.jpg
+SSIM: 0.0501 | HistCorr: -0.0192 | Combined: 0.0154 | Z-Score: -2.17
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMNM155E_363_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMNM155E_363_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IMNM155E_363_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IMNM155E_363_empty_1.jpg
+SSIM: 0.1505 | HistCorr: -0.1165 | Combined: 0.0170 | Z-Score: -2.16
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMSLQSQF_445021_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMSLQSQF_445021_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IMSLQSQF_445021_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IMSLQSQF_445021_empty_1.jpg
+SSIM: 0.0568 | HistCorr: -0.0178 | Combined: 0.0195 | Z-Score: -2.15
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMWOXYKF_366483_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMWOXYKF_366483_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IMWOXYKF_366483_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IMWOXYKF_366483_empty_1.jpg
+SSIM: 0.0831 | HistCorr: -0.0430 | Combined: 0.0200 | Z-Score: -2.15
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMNM155E_1798_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMNM155E_1798_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IMNM155E_1798_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IMNM155E_1798_empty_1.jpg
+SSIM: 0.2122 | HistCorr: -0.1687 | Combined: 0.0217 | Z-Score: -2.15
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IIU69JH3_259_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IIU69JH3_259_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IIU69JH3_259_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IIU69JH3_259_empty_1.jpg
+SSIM: 0.1041 | HistCorr: -0.0542 | Combined: 0.0249 | Z-Score: -2.13
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMGTSS7E_614_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMGTSS7E_614_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IMGTSS7E_614_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IMGTSS7E_614_empty_1.jpg
+SSIM: 0.2408 | HistCorr: -0.1899 | Combined: 0.0255 | Z-Score: -2.13
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/validation/before/3FO4IL8X6HXY_1014_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/validation/after/3FO4IL8X6HXY_1014_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/validation/masks/3FO4IL8X6HXY_1014_empty_1.jpg
+SSIM: 0.0793 | HistCorr: -0.0209 | Combined: 0.0292 | Z-Score: -2.12
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IJN7DYK2_824_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IJN7DYK2_824_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4IJN7DYK2_824_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4IJN7DYK2_824_empty_1.jpg
+SSIM: 0.0777 | HistCorr: -0.0188 | Combined: 0.0295 | Z-Score: -2.11
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4ILU6FUB5_824_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4ILU6FUB5_824_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks/3FO4ILU6FUB5_824_empty_1.jpg
+MASK_CLEAN: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/masks_clean/3FO4ILU6FUB5_824_empty_1.jpg
+SSIM: 0.0986 | HistCorr: -0.0296 | Combined: 0.0345 | Z-Score: -2.09
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IQ9SEUJ4_373329_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IQ9SEUJ4_373329_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/test/masks/3FO4IQ9SEUJ4_373329_empty_1.jpg
+SSIM: 0.3358 | HistCorr: -0.2663 | Combined: 0.0348 | Z-Score: -2.09
+------------------------------------------------------------------------------------------
+
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IO9QP7UT_16515_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IO9QP7UT_16515_empty_1.jpg
+MASK:   /Users/admin/Documents/Facultatea/Proiect_RN/data/test/masks/3FO4IO9QP7UT_16515_empty_1.jpg
+SSIM: 0.1254 | HistCorr: -0.0529 | Combined: 0.0363 | Z-Score: -2.09
+------------------------------------------------------------------------------------------
+

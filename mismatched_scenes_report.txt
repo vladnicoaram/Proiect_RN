@@ -1,0 +1,403 @@
+RAPORT PERECHI CU CAMERĂ/UNGHI DIFERIT - 1202 DETECTATE
+====================================================================================================
+
+Dataset: train
+Filename: 3FO4IDU7VMMJ_538631_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IDU7VMMJ_538631_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IDU7VMMJ_538631_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IEYBOVCK_1457_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IEYBOVCK_1457_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IEYBOVCK_1457_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IG7OLTWD_3514_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IG7OLTWD_3514_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IG7OLTWD_3514_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IGCSFPO8_166263_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IGCSFPO8_166263_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IGCSFPO8_166263_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IGH3UDTQ_364328_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IGH3UDTQ_364328_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IGH3UDTQ_364328_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IGUI61O7_2115_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IGUI61O7_2115_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IGUI61O7_2115_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IJGPOJ43_513071_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IJGPOJ43_513071_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IJGPOJ43_513071_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IJN7DYK2_824_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IJN7DYK2_824_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IJN7DYK2_824_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IJQBJGEN_1071_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IJQBJGEN_1071_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IJQBJGEN_1071_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IJQBJGEN_533_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IJQBJGEN_533_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IJQBJGEN_533_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IK6DT26W_1715_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IK6DT26W_1715_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IK6DT26W_1715_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IK9I8BN5_1184_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IK9I8BN5_1184_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IK9I8BN5_1184_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IL6HSL8D_574_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IL6HSL8D_574_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IL6HSL8D_574_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IL83GSR1_1216_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IL83GSR1_1216_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IL83GSR1_1216_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4ILU6FUB5_824_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4ILU6FUB5_824_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4ILU6FUB5_824_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IM6J9AN9_3297_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IM6J9AN9_3297_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IM6J9AN9_3297_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IMGTSS7E_614_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMGTSS7E_614_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMGTSS7E_614_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IMIU2TCT_12319_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMIU2TCT_12319_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMIU2TCT_12319_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IMIU2TCT_1732_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMIU2TCT_1732_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMIU2TCT_1732_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IMNM155E_363_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMNM155E_363_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMNM155E_363_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IMQ587LN_22734_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IMQ587LN_22734_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IMQ587LN_22734_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IN1CIJGN_2113_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IN1CIJGN_2113_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IN1CIJGN_2113_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IN5Y3JUW_293801_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IN5Y3JUW_293801_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IN5Y3JUW_293801_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4INEVLXSA_141_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4INEVLXSA_141_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4INEVLXSA_141_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4INLADYTM_1563_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4INLADYTM_1563_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4INLADYTM_1563_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4INNBD21J_678308_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4INNBD21J_678308_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4INNBD21J_678308_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4INWDSHWD_1346_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4INWDSHWD_1346_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4INWDSHWD_1346_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IO14RO3D_970003_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IO14RO3D_970003_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IO14RO3D_970003_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IO3BPR8S_2888_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IO3BPR8S_2888_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IO3BPR8S_2888_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IO3TW143_291_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IO3TW143_291_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IO3TW143_291_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IONJ41YB_903927_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IONJ41YB_903927_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IONJ41YB_903927_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IOU2FPAE_202_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IOU2FPAE_202_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IOU2FPAE_202_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IP7WFNBR_958_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IP7WFNBR_958_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IP7WFNBR_958_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: train
+Filename: 3FO4IQAARQBW_413_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/train/before/3FO4IQAARQBW_413_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IQAARQBW_413_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IDI9FO3C_447_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IDI9FO3C_447_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IDI9FO3C_447_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IFWXWFX4_27551_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IFWXWFX4_27551_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IFWXWFX4_27551_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IGBANO3T_760104_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IGBANO3T_760104_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IGBANO3T_760104_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IGUI61O7_161_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IGUI61O7_161_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IGUI61O7_161_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IHNTIPJB_207_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: No matches found
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IHNTIPJB_207_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IHNTIPJB_207_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IIBQ6T3P_169_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IIBQ6T3P_169_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IIBQ6T3P_169_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IIIL853B_3783_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IIIL853B_3783_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IIIL853B_3783_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IJ6XG5XO_2252_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IJ6XG5XO_2252_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IJ6XG5XO_2252_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IJA4RV23_958_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IJA4RV23_958_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IJA4RV23_958_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IJN82R56_824_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IJN82R56_824_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IJN82R56_824_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IJN82R56_9954_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IJN82R56_9954_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IJN82R56_9954_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IKHO5QH3_3788_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IKHO5QH3_3788_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IKHO5QH3_3788_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IKHO5QH3_9768_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IKHO5QH3_9768_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IKHO5QH3_9768_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IM6J9AN9_187_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IM6J9AN9_187_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IM6J9AN9_187_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4IMMEF23G_418210_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: Prea puține matches (0 < 20) | Distribuție slabă (0.00%)
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4IMMEF23G_418210_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IMMEF23G_418210_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+
+Dataset: test
+Filename: 3FO4INRWR551_6174_empty_1.jpg
+Good Matches: 0 | Coverage: 0.00% | Quality: 0.00%
+Motiv: No matches found
+BEFORE: /Users/admin/Documents/Facultatea/Proiect_RN/data/test/before/3FO4INRWR551_6174_empty_1.jpg
+AFTER:  /Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4INRWR551_6174_empty_1.jpg
+----------------------------------------------------------------------------------------------------
+

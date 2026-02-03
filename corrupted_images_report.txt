@@ -1,0 +1,11 @@
+RAPORT IMAGINI CORUPTE - 8 detectate
+================================================================================
+
+/Users/admin/Documents/Facultatea/Proiect_RN/data/train/after/3FO4IQAARQBW_413_empty_1.jpg
+/Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IHNTIPJB_207_empty_1.jpg
+/Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IHQF6Y0C_446_empty_1.jpg
+/Users/admin/Documents/Facultatea/Proiect_RN/data/test/after/3FO4IOKKRM7Q_2229_empty_1.jpg
+/Users/admin/Documents/Facultatea/Proiect_RN/data/validation/after/3FO4IIXI4ITA_990133_empty_1.jpg
+/Users/admin/Documents/Facultatea/Proiect_RN/data/validation/after/3FO4IJQ4QHBH_6118_empty_1.jpg
+/Users/admin/Documents/Facultatea/Proiect_RN/data/validation/after/3FO4IMCBKC30_457_empty_1.jpg
+/Users/admin/Documents/Facultatea/Proiect_RN/data/validation/after/3FO4IMMEF23G_421509_empty_1.jpg

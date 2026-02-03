@@ -1,237 +1,254 @@
-# 🛡️ AI Change Detection - Semantic Segmentation for Surface Inspection
+# 🛡️ Detecția Schimbărilor cu AI - Segmentare Semantică pentru Inspecția Suprafețelor
 
-## 📋 Project Information
+## 📋 Informații Proiect
 
-**Student**: Nicoara Vlad-Mihai (Grupa 634AB)  
-**Project Type**: Machine Learning - Semantic Segmentation (Change Detection)  
-**Status**: ✅ **ETAPA 6 - COMPLETĂ** (Ready for Exam)
+**Student**: Nicoara Vlad-Mihai (Grupa 634AB)
 
----
+**Tip Proiect**: Machine Learning - Segmentare Semantică (Change Detection)
 
-## 🎯 Final Results
-
-### Performance Metrics (Test Set)
-- **Accuracy**: 85.77% ✅ (↑ +49.4% vs baseline)
-- **Precision**: 76.48% ✅ (↑ +40.1% vs baseline)
-- **Recall**: 62.72%
-- **F1-Score**: 0.667 ✅ (exceeds requirement ≥0.65)
-- **IoU**: 49.46%
-
-### Model Configuration
-- **Architecture**: UNet (6 input channels → 1 output)
-- **Parameters**: 7.7 Million
-- **Loss Function**: FocalLoss(0.6) + DiceLoss(0.4)
-- **Device**: Mac M1 MPS (35ms inference latency)
-- **Optimization**: 6 experimental phases documented
+**Status**: ✅ **ETAPA 6 - COMPLETĂ** (Pregătit pentru Examen)
 
 ---
 
-## 📁 Project Structure
+## 🎯 Rezultate Finale
+
+### Metrici de Performanță (Set de Test)
+
+* **Acuratețe (Accuracy)**: 85.77% ✅ (↑ +49.4% față de baseline)
+* **Precizie (Precision)**: 76.48% ✅ (↑ +40.1% față de baseline)
+* **Rapel (Recall)**: 62.72%
+* **Scor F1 (F1-Score)**: 0.667 ✅ (depășește cerința ≥0.65)
+* **IoU (Intersection over Union)**: 49.46%
+
+### Configurația Modelului
+
+* **Arhitectură**: UNet (6 canale de intrare → 1 ieșire)
+* **Parametri**: 7.7 Milioane
+* **Funcția de Loss**: FocalLoss(0.6) + DiceLoss(0.4)
+* **Dispozitiv**: Mac M1 MPS (latență de inferență 35ms)
+* **Optimizare**: 6 faze experimentale documentate
+
+---
+
+## 📁 Structura Proiectului
 
 ```
 .
-├── README.md                          ⭐ Main documentation (this file)
-├── interfata_web.py                   🌐 Streamlit UI for inference
-├── requirements.txt                   📦 Python dependencies
+├── README.md                          ⭐ Documentația principală (acest fișier)
+├── interfata_web.py                   🌐 Interfață Streamlit pentru inferență
+├── requirements.txt                   📦 Dependențe Python
 │
-├── 📂 src/                            🔬 Source code
+├── 📂 src/                            🔬 Cod sursă
 │   └── neural_network/
-│       ├── model.py                   (UNet architecture)
-│       ├── dataset.py                 (PyTorch Dataset loader)
-│       ├── train_refined.py           (Training script - Etapa 6)
-│       └── evaluate_refined.py        (Evaluation metrics)
+│       ├── model.py                   (Arhitectura UNet)
+│       ├── dataset.py                 (Încărcătorul de seturi de date PyTorch)
+│       ├── train_refined.py           (Script de antrenare - Etapa 6)
+│       └── evaluate_refined.py        (Metrici de evaluare)
 │
-├── 📂 models/                         🤖 Trained models
-│   ├── optimized_model.pt (29 MB)     ⭐ FINAL MODEL (Etapa 6 - 85.77% acc)
-│   └── unet_final.pth                 (Etapa 5 baseline - 36.36% acc)
+├── 📂 models/                         🤖 Modele antrenate
+│   ├── optimized_model.pt (29 MB)     ⭐ MODEL FINAL (Etapa 6 - 85.77% acc)
+│   └── unet_final.pth                 (Baseline Etapa 5 - 36.36% acc)
 │
-├── 📂 data/                           📊 Dataset (1,083 train + 266 val + 267 test)
-│   ├── train/                         (training images & masks)
-│   ├── validation/                    (validation images & masks)
-│   └── test/                          (test images & masks)
+├── 📂 data/                           📊 Dataset (1.083 train + 266 val + 267 test)
+│   ├── train/                         (imagini de antrenament și măști)
+│   ├── validation/                    (imagini de validare și măști)
+│   └── test/                          (imagini de test și măști)
 │
-├── 📂 results/                        📈 Evaluation & metrics
-│   ├── final_metrics.json             (Etapa 6 - Complete metrics)
-│   ├── optimization_experiments.csv   (6 experiments documented)
-│   ├── error_analysis_etapa6.json     (5 error samples analyzed)
-│   ├── training_history_refined.csv   (34 epochs training log)
-│   └── evaluation_refined/            (Evaluation results)
+├── 📂 results/                        📈 Evaluare și metrici
+│   ├── final_metrics.json             (Etapa 6 - Metrici complete)
+│   ├── optimization_experiments.csv   (6 experimente documentate)
+│   ├── error_analysis_etapa6.json     (5 probe de eroare analizate)
+│   ├── training_history_refined.csv   (Log-ul de antrenare pentru 34 de epoci)
+│   └── evaluation_refined/            (Rezultate evaluare)
 │
-└── 📂 docs/                           📄 Documentation & visualizations
-    ├── README_Etapa_*.md              (Stage reports)
-    ├── ETAPA_6_FINALA.md              (Final stage summary)
-    ├── PROJECT_STRUCTURE.md           (Project architecture)
-    ├── loss_curve.png                 (Training history visualization)
-    ├── confusion_matrix_optimized.png (Model prediction analysis)
-    ├── diagrama_UML.png               (Architecture diagram)
-    ├── screenshots/                   (UI demonstration screenshots)
+└── 📂 docs/                           📄 Documentație și vizualizări
+    ├── README_Etapa_*.md              (Rapoarte pe etape)
+    ├── ETAPA_6_FINALA.md              (Rezumat etapa finală)
+    ├── PROJECT_STRUCTURE.md           (Arhitectura proiectului)
+    ├── loss_curve.png                 (Vizualizarea istoricului de antrenare)
+    ├── confusion_matrix_optimized.png (Analiza predicțiilor modelului)
+    ├── diagrama_UML.png               (Diagrama de arhitectură)
+    ├── screenshots/                   (Capturi de ecran cu demonstrația UI)
     │   ├── inference_optimized.png
     │   ├── inference_optimized_comparison.png
     │   └── inference_real.png
-    └── scripts/                       (Auxiliary utility scripts)
+    └── scripts/                       (Scripturi utilitare auxiliare)
         ├── generate_etapa6_visualizations.py
         ├── generate_screenshot_ui.py
-        └── ... (other utilities)
+        └── ... (alte utilitare)
+
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Pornire Rapidă
 
-### 1. Install Dependencies
+### 1. Instalarea Dependențelor
+
 ```bash
 pip install -r requirements.txt
+
 ```
 
-### 2. Run Streamlit UI
+### 2. Rularea Interfeței Streamlit
+
 ```bash
 streamlit run interfata_web.py
-```
-Access at: `http://localhost:8501`
 
-### 3. Upload Images
-- Select before/after images via sidebar file uploader
-- Model performs inference on M1 MPS GPU (~35ms per image)
-- View predictions with metrics overlay
+```
+
+Accesibil la: `http://localhost:8501`
+
+### 3. Încărcarea Imaginilor
+
+* Selectați imaginile "înainte/după" prin panoul lateral (file uploader)
+* Modelul execută inferența pe GPU-ul M1 MPS (~35ms per imagine)
+* Vizualizați predicțiile cu metricile suprapuse
 
 ---
 
-## 📊 Etapa Overview
+## 📊 Prezentare Etape
 
 ### Etapa 4 - Baseline (5%)
-- **Loss**: BCEWithLogitsLoss
-- **Accuracy**: 5% → 36.36%
-- Report: [README_Etapa_4.md](docs/README_Etapa_4.md)
 
-### Etapa 5 - Refinement (36% → 63%)
-- **Loss**: FocalLoss(0.6) + DiceLoss(0.4)
-- **Accuracy**: 36.36% → 63.64%
-- **Training**: 34 epochs with ReduceLROnPlateau
-- Report: [README_Etapa_5.md](docs/README_Etapa_5.md)
+* **Loss**: BCEWithLogitsLoss
+* **Acuratețe**: 5% → 36.36%
+* Raport: [README_Etapa_4.md](https://www.google.com/search?q=docs/README_Etapa_4.md)
 
-### Etapa 6 - Optimization (63% → 86%) ⭐
-- **Threshold Tuning**: 0.55 optimal
-- **Post-processing**: Morphological filtering (200px minimum)
-- **Accuracy**: 63.64% → 85.77%
-- **Experiments**: 6 documented phases
-- **Error Analysis**: 5 misclassified samples analyzed
-- Final Report: [ETAPA_6_FINALA.md](docs/ETAPA_6_FINALA.md)
+### Etapa 5 - Rafinare (36% → 63%)
+
+* **Loss**: FocalLoss(0.6) + DiceLoss(0.4)
+* **Acuratețe**: 36.36% → 63.64%
+* **Antrenare**: 34 epoci cu ReduceLROnPlateau
+* Raport: [README_Etapa_5.md](https://www.google.com/search?q=docs/README_Etapa_5.md)
+
+### Etapa 6 - Optimizare (63% → 86%) ⭐
+
+* **Ajustarea Pragului**: 0.55 (optim)
+* **Post-procesare**: Filtrare morfologică (minim 200px)
+* **Acuratețe**: 63.64% → 85.77%
+* **Experimente**: 6 faze documentate
+* **Analiza Erorilor**: 5 probe clasificate greșit au fost analizate
+* Raport Final: [ETAPA_6_FINALA.md](https://www.google.com/search?q=docs/ETAPA_6_FINALA.md)
 
 ---
 
-## 📈 Key Improvements
+## 📈 Îmbunătățiri Cheie
 
-| Metric | Baseline | Etapa 5 | Etapa 6 | Change |
-|--------|----------|---------|---------|--------|
-| **Accuracy** | 5% | 36.36% | 85.77% | ↑ +80.77% |
-| **Precision** | 0% | 36% | 76.48% | ↑ +76.48% |
-| **F1-Score** | 0.1 | 0.53 | 0.667 | ↑ +0.567 |
+| Metrică | Baseline | Etapa 5 | Etapa 6 | Schimbare |
+| --- | --- | --- | --- | --- |
+| **Acuratețe** | 5% | 36.36% | 85.77% | ↑ +80.77% |
+| **Precizie** | 0% | 36% | 76.48% | ↑ +76.48% |
+| **Scor F1** | 0.1 | 0.53 | 0.667 | ↑ +0.567 |
 | **IoU** | 0% | 36.35% | 49.46% | ↑ +13.11% |
 
 ---
 
-## 🔍 Visualization & Analysis
+## 🔍 Vizualizare și Analiză
 
-### Training Curves
-![Loss Evolution](docs/loss_curve.png)
+### Curbele de Antrenare
 
-### Confusion Matrix (Test Set)
-![Confusion Matrix](docs/confusion_matrix_optimized.png)
+### Matricea de Confuzie (Set de Test)
 
-### UI Demonstration
-![Inference Example](docs/screenshots/inference_optimized.png)
+### Demonstrație Interfață (UI)
 
 ---
 
-## 📋 Optimization Phases
+## 📋 Fazele de Optimizare
 
-Six experiments documented in [results/optimization_experiments.csv](results/optimization_experiments.csv):
+Șase experimente documentate în [results/optimization_experiments.csv](https://www.google.com/search?q=results/optimization_experiments.csv):
 
 1. **Baseline**: BCEWithLogitsLoss → 36.36%
 2. **Exp1_FocalLoss**: Focal + Dice loss → 63.64%
-3. **Exp2_HighThreshold**: threshold=0.75 → 0% (FAILED)
-4. **Exp3_AdaptiveThreshold**: threshold=0.55 → 85.77% ⭐ **BEST**
+3. **Exp2_HighThreshold**: threshold=0.75 → 0% (EȘUAT)
+4. **Exp3_AdaptiveThreshold**: threshold=0.55 → 85.77% ⭐ **CEL MAI BUN**
 5. **Exp4_LargerBatch**: Batch 64 → 82.34%
 6. **Exp5_HigherLR**: LR 5e-4 → 81.56%
 
 ---
 
-## ❌ Error Analysis
+## ❌ Analiza Erorilor
 
-5 misclassified samples analyzed in [results/error_analysis_etapa6.json](results/error_analysis_etapa6.json):
+5 probe clasificate greșit analizate în [results/error_analysis_etapa6.json](https://www.google.com/search?q=results/error_analysis_etapa6.json):
 
-### False Negatives (Model Misses Changes)
-- **Sample #204**: Low contrast → 36k FN pixels
-- **Sample #152**: Uneven lighting → 34.9k FN pixels
-- **Sample #013**: Dark edges → 23.4k FN pixels
+### Fals Negative (Modelul omite schimbări)
 
-### False Positives (Model Detects False Changes)
-- **Sample #009**: Sensor noise → 34.5k FP pixels
-- **Sample #095**: JPEG compression artifacts → 26.4k FP pixels
+* **Proba #204**: Contrast scăzut → 36k pixeli FN
+* **Proba #152**: Iluminare neuniformă → 34.9k pixeli FN
+* **Proba #013**: Margini întunecate → 23.4k pixeli FN
 
-**Root Causes**: Lighting variations, compression artifacts, sensor noise
+### Fals Pozitive (Modelul detectează schimbări false)
 
----
+* **Proba #009**: Zgomot de senzor → 34.5k pixeli FP
+* **Proba #095**: Artefacte de compresie JPEG → 26.4k pixeli FP
 
-## 📦 Dependencies
-
-See [requirements.txt](requirements.txt) for complete list:
-- **PyTorch**: Deep learning framework
-- **Streamlit**: Web UI for inference
-- **OpenCV**: Image processing
-- **Pandas/NumPy**: Data manipulation
-- **Matplotlib/Seaborn**: Visualization
-- **Scikit-learn/Image**: ML utilities
+**Cauze Rădăcină**: Variații de iluminare, artefacte de compresie, zgomot de senzor
 
 ---
 
-## 🎓 Deliverables Checklist
+## 📦 Dependențe
 
-- ✅ Minimum 4 experiments (6 executed)
-- ✅ Accuracy ≥70% (Achieved: 85.77%)
-- ✅ F1-Score ≥0.65 (Achieved: 0.667)
-- ✅ Confusion matrix generated & analyzed
-- ✅ 5 error samples identified with root causes
-- ✅ Model optimized & saved (29 MB)
-- ✅ Comprehensive metrics (JSON + CSV)
-- ✅ UI screenshots captured
-- ✅ Full documentation completed
+Consultați [requirements.txt](https://www.google.com/search?q=requirements.txt) pentru lista completă:
 
----
-
-## 🔗 Documentation Links
-
-- **Full Etapa 6 Report**: [ETAPA_6_FINALA.md](docs/ETAPA_6_FINALA.md)
-- **Project Architecture**: [PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)
-- **Metrics (JSON)**: [results/final_metrics.json](results/final_metrics.json)
-- **Experiments (CSV)**: [results/optimization_experiments.csv](results/optimization_experiments.csv)
-- **Error Analysis**: [results/error_analysis_etapa6.json](results/error_analysis_etapa6.json)
+* **PyTorch**: Framework de deep learning
+* **Streamlit**: Interfață web pentru inferență
+* **OpenCV**: Procesare de imagini
+* **Pandas/NumPy**: Manipulare de date
+* **Matplotlib/Seaborn**: Vizualizare
+* **Scikit-learn/Image**: Utilitare ML
 
 ---
 
-## 💾 Model Files
+## 🎓 Checklist Livrabile
 
-| File | Size | Accuracy | Status |
-|------|------|----------|--------|
+* ✅ Minimum 4 experimente (6 executate)
+* ✅ Acuratețe ≥70% (Realizat: 85.77%)
+* ✅ Scor F1 ≥0.65 (Realizat: 0.667)
+* ✅ Matricea de confuzie generată și analizată
+* ✅ 5 probe de eroare identificate cu cauzele rădăcină
+* ✅ Model optimizat și salvat (29 MB)
+* ✅ Metrici cuprinzătoare (JSON + CSV)
+* ✅ Capturi de ecran cu interfața UI realizate
+* ✅ Documentație completă finalizată
+
+---
+
+## 🔗 Link-uri Documentație
+
+* **Raport Complet Etapa 6**: [ETAPA_6_FINALA.md](https://www.google.com/search?q=docs/ETAPA_6_FINALA.md)
+* **Arhitectura Proiectului**: [PROJECT_STRUCTURE.md](https://www.google.com/search?q=docs/PROJECT_STRUCTURE.md)
+* **Metrici (JSON)**: [results/final_metrics.json](https://www.google.com/search?q=results/final_metrics.json)
+* **Experimente (CSV)**: [results/optimization_experiments.csv](https://www.google.com/search?q=results/optimization_experiments.csv)
+* **Analiza Erorilor**: [results/error_analysis_etapa6.json](https://www.google.com/search?q=results/error_analysis_etapa6.json)
+
+---
+
+## 💾 Fișiere Model
+
+| Fișier | Dimensiune | Acuratețe | Status |
+| --- | --- | --- | --- |
 | `models/optimized_model.pt` | 29 MB | 85.77% | ✅ FINAL |
 | `models/unet_final.pth` | 29 MB | 36.36% | Baseline |
 
 ---
 
-## 📝 Notes
+## 📝 Note
 
-- **Training Time**: ~28-30 minutes for 34 epochs on M1 MPS (~50 sec/epoch)
-- **Inference Latency**: 35ms per 256×256 image
-- **Throughput**: 28.57 samples/sec
-- **Dataset**: 1,616 total images (balanced train/val/test split)
-
----
-
-## 🎯 Status: READY FOR EXAM ✅
-
-All deliverables completed. Project structure organized. Documentation comprehensive.
+* **Timp de Antrenare**: ~28-30 minute pentru 34 epoci pe M1 MPS (~50 sec/epocă)
+* **Latență Inferență**: 35ms per imagine de 256×256
+* **Debit (Throughput)**: 28.57 probe/secundă
+* **Dataset**: 1.616 imagini în total (împărțire echilibrată train/val/test)
 
 ---
 
-**Last Updated**: 22 January 2026  
-**Version**: 1.0 (Final Submission)
+## 🎯 Status: GATA PENTRU EXAMEN ✅
+
+Toate livrabilele au fost finalizate. Structura proiectului este organizată. Documentația este cuprinzătoare.
+
+---
+
+**Ultima Actualizare**: 22 Ianuarie 2026
+
+**Versiune**: 1.0 (Trimitere Finală)
+
+---
